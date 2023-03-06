@@ -8,7 +8,13 @@ class custom_text_field extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      decoration: InputDecoration(border: OutlineInputBorder()),
+      decoration: InputDecoration(
+          border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: Color.fromARGB(26, 255, 255, 255),
+        ),
+      )),
     );
   }
 }
