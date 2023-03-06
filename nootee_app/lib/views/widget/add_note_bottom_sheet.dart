@@ -12,17 +12,32 @@ class add_note_bottom_sheet extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
-        
+         
           children: [
-           SizedBox(
+            SizedBox(
     
             height: 32,
            ) 
             
-          custom_text_field(),
+            custom_text_field(),
           
           ],
       ),
     );
   }
 }
+class custombottom extends StatelessWidget {
+  const custombottom({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size,
+    );
+  }
+}
+ 
+ 
+ 
+
+ 
