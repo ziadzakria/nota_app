@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 
 import 'customappbar.dart';
 import 'custom_note .dart';
+import 'notes_list_view.dart';
 
 class noteviewbody extends StatelessWidget {
   const noteviewbody({super.key});
@@ -22,16 +23,5 @@ class noteviewbody extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class noteslistview extends StatelessWidget {
-  const noteslistview({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.builder(itemBuilder: (context, index) {
-      return const noteitme();
-    });
   }
 }
