@@ -5,6 +5,11 @@ class add_note_bottom_sheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      decoration: BoxDecoration(),
+      child: Column(
+        children: [Text('hello')],
+      ),
+    );
   }
 }
