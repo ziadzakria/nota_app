@@ -11,6 +11,6 @@ class edit_note_view extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: edit_view_body(),
-    ),
+    );
   }
 }
