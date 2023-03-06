@@ -12,7 +12,6 @@ class add_note_bottom_sheet extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
-       
         
           children: [
            SizedBox(
