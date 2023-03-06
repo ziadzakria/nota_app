@@ -10,16 +10,16 @@ class noteapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var materialApp = MaterialApp(
-      theme: ThemeData(brightness: Brightness.dark,
+    var themeData = ThemeData(brightness: Brightness.dark,
       fontFamily: 
       
-      )
-          
+      ),
+    
+         home: const notesview(),  
 
       
-      home: const notesview(),
-    );
+     
+    
     return materialApp;
   }
 }
