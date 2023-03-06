@@ -7,6 +7,8 @@ class custom_text_field extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextField();
+    return TextField(
+      decoration: InputDecoration(border: OutlineInputBorder()),
+    );
   }
 }
