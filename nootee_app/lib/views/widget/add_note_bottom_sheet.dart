@@ -22,7 +22,6 @@ class add_note_bottom_sheet extends StatelessWidget {
           custom_text_field(),
           
           ],
-        
       ),
     );
   }
