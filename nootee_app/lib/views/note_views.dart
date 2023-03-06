@@ -10,7 +10,17 @@ class notesview extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          showModalBottomSheet(context: context, builder: (context)
+          {
+
+            return
+            
+
+          });
+
+
+        },
         child: const Icon(Icons.add),
       ),
       body: noteviewbody(),
