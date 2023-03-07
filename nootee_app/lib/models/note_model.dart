@@ -9,4 +9,3 @@ class note_model {
       required this.date,
       required this.color});
 }
-String:
