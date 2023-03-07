@@ -19,11 +19,17 @@ class edit_view_body extends StatelessWidget {
           SizedBox(
              height:50,
              )
-              customappbar(
+               customappbar(
                 title:' edit note',
                 iconc:  Icons.check,
               ),
+              SizedBox(
+             height:50,
+             ),
              custom_text_field(hint:'titel' ),
+             SizedBox(
+             height:50,
+             ),
              custom_text_field(hint: 'content'),
         ],
       ),
