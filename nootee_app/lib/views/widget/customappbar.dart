@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:matcher/matcher.dart';
 
 class customappbar extends StatelessWidget {
-  const customappbar({super.key});
+  const customappbar(
+      {super.key,
+      required this.icon,
+      required this.title,
+      required IconData iconc});
+  final IconData icon;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
