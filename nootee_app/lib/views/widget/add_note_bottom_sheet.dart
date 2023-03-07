@@ -13,17 +13,19 @@ class add_note_bottom_sheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const custom_text_field2 = const custom_text_field();
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
          
+          // ignore: prefer_const_literals_to_create_immutables
           children: [
             SizedBox(
     
             height: 32,
            ) 
-            
-            custom_text_field(),
+             custom_text_field(),
+
             custom_bottom(),
           ],
       ),
