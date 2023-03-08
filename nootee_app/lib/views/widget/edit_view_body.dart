@@ -30,7 +30,7 @@ class edit_view_body extends StatelessWidget {
              SizedBox(
              height:50,
              ),
-             custom_text_field(hint: 'content'),
+             custom_text_field(Hint: 'content'),
         ],
       ),
       );
